@@ -1,0 +1,16 @@
+Compiled from "PrintUsername.java"
+class PrintUsername {
+  PrintUsername();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: getstatic     #7                  // Field java/lang/System.out:Ljava/io/PrintStream;
+       3: ldc           #13                 // String user.name
+       5: invokestatic  #15                 // Method java/lang/System.getProperty:(Ljava/lang/String;)Ljava/lang/String;
+       8: invokevirtual #19                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      11: return
+}
